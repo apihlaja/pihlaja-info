@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Antti Pihlaja</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+        :root {
+            --bgColor: white;
+            --accentColor: #E6C9B4;
+            --font: sans-serif;
+        }
+
+        body {
+            background-color: var(--bgColor);
+            font-family: var(--font);
+        }
+
+        #userPhoto {
+            width: 30vw;
+            max-width: 300px;
+            min-width: 100px;
+            height: auto;
+            display: block;
+            margin: 35px auto 20px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        #userName {
+            color: #bbb;
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.25;
+            display: block;
+            font-family: var(--font);
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        #links {
+            max-width: 450px;
+            width: auto;
+            display: block;
+            margin: 27px auto;
+        }
+        .link {
+            display: block;
+            background-color: var(--accentColor);
+            color: var(--bgColor);
+            font-family: var(--font);
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 17px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all .25s cubic-bezier(.08,.59,.29,.99);
+            border: solid var(--accentColor) 2px;
+        }
+
+        .link:hover {
+            background-color: var(--bgColor);
+            color: var(--accentColor);
+        }
+    </style>
+</head>
+
+<body>
+    <img id="userPhoto" src="antti-pihlaja.jpg" alt="User Photo">
+    
+    <h1>Antti Pihlaja</h1>
+    <div id="links">
+        <a class="link" href="https://www.linkedin.com/in/antti-pihlaja/" target="_blank">LinkedIn</a>
+        <a class="link" href="https://github.com/apihlaja" target="_blank">GitHub</a>
+        <a class="link" href="https://x.com/antti_pihlaja" target="_blank">X</a>
+    </div>
+</body>
+</html>
